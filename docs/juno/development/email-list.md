@@ -11,7 +11,7 @@ The email list component is composed of the following components:
 1. LabeledInbox
 2. LoadingState
 
-The header for this component is generated via the [Header](/development/header) component.
+The header for this component is generated via the [Header](/docs/juno/development/header) component.
 
 ### LabeledInbox
 
