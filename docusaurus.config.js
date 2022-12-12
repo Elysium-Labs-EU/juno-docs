@@ -86,6 +86,11 @@ const config = {
             label: "GitHub",
             position: "right",
           },
+          {
+            href: "https://elysiumlabs.io/",
+            label: "Site",
+            position: "right",
+          },
         ],
       },
       footer: {
