@@ -1,4 +1,4 @@
-# Routes (wip)
+# Routes
 
 All the routes are defined in the `routes.json` file. Each route is hooked up to a component via the `Routes.tsx` file.
 
@@ -8,4 +8,6 @@ Routes that are only accessible when the user is logged in are defined with a `P
 
 ## Route splitting
 
+:::info
 Currently the codebase does not split the routes, this is something that can be implemented in the future. The initial implementation caused some issues, which is why it was removed.
+:::
