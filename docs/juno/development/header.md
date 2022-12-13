@@ -1,3 +1,0 @@
-# Header (wip)
-
-Lorem 🦖

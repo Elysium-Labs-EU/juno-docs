@@ -1,3 +1,0 @@
-# Search (wip)
-
-Lorem 🦖

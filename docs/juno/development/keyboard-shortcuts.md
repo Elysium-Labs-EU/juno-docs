@@ -1,3 +1,0 @@
-# Keyboard shortcuts (wip)
-
-Lorem 🦖

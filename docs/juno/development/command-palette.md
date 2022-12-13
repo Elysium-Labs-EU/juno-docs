@@ -1,3 +1,0 @@
-# Command Palette (wip)
-
-Lorem 🦖
