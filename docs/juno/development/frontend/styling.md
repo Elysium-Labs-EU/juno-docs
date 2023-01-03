@@ -9,6 +9,8 @@ Styling in the project is done via:
 
 The goal is to use styled components as much as possible, but if you need to use a component from Radix UI or MUI, you can do so. We are phasing MUI out as much as possible, but there are still some components that are not yet available in Radix UI.
 
+We use Storybook for showcasing our styled components, [see this page](storybook.md).
+
 ## Styled components
 
 via [Emotion](https://emotion.sh/docs/introduction)
