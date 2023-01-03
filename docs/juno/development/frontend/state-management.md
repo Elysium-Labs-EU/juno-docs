@@ -83,6 +83,21 @@ By using this, we do not need to pass around a navigation hook or function throu
 
 All the general label are listed here, such as user settings, loading state, notifications, and which modal is active.
 
+##### navigateNextMail & navigatePreviousMail
+
+Two functions to navigate the email detail view to the next or previous email in the email list.
+
+```ts
+export const navigateNextMail =
+  (blockViewIndexUpdate?: boolean, forceNavigateBack?: boolean): AppThunk =>
+  (dispatch, getState) => {
+    // Rest of the function
+  };
+```
+
+The function takes two optional parameters:
+`blockViewIndexUpdate` and `forceNavigateBack`. The first one is used to prevent the view index from being updated, which is used when the user is navigating between emails in the email detail view. The second one is used to force the user to navigate back to the email list, which is used when the user is navigating to the email detail view from the search list.
+
 ## React state
 
 React state is used for local state management. This state is destroyed whenever a component is unmounted.
