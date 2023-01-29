@@ -72,3 +72,7 @@ Based on the relative date, a diffent format will be used to display the date.
 Based on the Redux variable `labelIds` either the regular inline thread actions component is rendered, or the draft actions component is rendered.
 
 The inline thread actions component will render components, which use the same functions as the email detail functions.
+
+### Reply (email only)
+
+When selecting to reply via the overview, it will dispatch a location change including a state object. That state object can be `{isReplying: true}`, the emailDetail page looks for that state, and if there is will act accordingly.
